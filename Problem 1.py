@@ -15,3 +15,5 @@ def group_by_owners(input):
 input = {'Input.txt': 'Randy', 'Code.py': 'Stan', 'Output.txt': 'Randy'}
 
 print(group_by_owners(input))
+
+# output: {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}
